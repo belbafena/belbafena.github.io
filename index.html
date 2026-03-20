@@ -57,6 +57,15 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             transition: transform 0.2s;
         }
+        .image-row {
+            display: flex;
+            gap: 10px;
+    }
+
+.image-row img {
+    width: 33%;
+    border-radius: 10px;
+}
 
         .card:hover {
             transform: translateY(-5px);
@@ -146,9 +155,11 @@
 
     <h4>Model Visualizations</h4>
 
-    <img src="roc.png" style="width:100%; margin-top:10px;">
-    <img src="pipeline.png" style="width:100%; margin-top:10px;">
-    <img src="lime.png" style="width:100%; margin-top:10px;">
+  <div class="image-row">
+    <img src="roc.png">
+    <img src="pipeline.png">
+    <img src="lime.png">
+</div>
 
     <br><br>
 
