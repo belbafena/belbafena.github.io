@@ -57,10 +57,17 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             transition: transform 0.2s;
         }
-        .image-row {
-            display: flex;
+    
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 10px;
-    }
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
 
 .image-row img {
     width: 33%;
@@ -136,7 +143,7 @@
 </section>
 
 <section>
-    <h2>Projects</h2>
+    <h2>Featured Projects</h2>
 
 <div class="card">
     <h3>Customer Churn Prediction (SAS Model Studio)</h3>
@@ -155,7 +162,7 @@
 
     <h4>Model Visualizations</h4>
 
-  <div class="image-row">
+<div class="image-grid">
     <img src="roc.png">
     <img src="pipeline.png">
     <img src="lime.png">
