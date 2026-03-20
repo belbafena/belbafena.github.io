@@ -1,26 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belbafena Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #d1d5db;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            border-left: 5px solid #2563eb;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .metrics {
+            background: #eef2ff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background: #111827;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
 <header>
     <h1>Belbafena</h1>
     <p>Data Analyst | Machine Learning | AI</p>
-    <p>Specializing in Predictive Analytics and Explainable AI</p>
+    <p>Specializing in Predictive Analytics & Explainable AI</p>
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-    I am a Master's student in Advanced Data Analysis for Business at Politehnica University of Bucharest, with a strong academic performance (GPA 9.8/10).
+        I am a Master's student in Advanced Data Analysis for Business at Politehnica University of Bucharest, with a GPA of 9.8/10.
     </p>
     <p>
-    My work focuses on predictive modeling, machine learning, and explainable AI techniques such as LIME, Partial Dependence (PD), and ICE. 
-    I am currently developing an LLM-driven decision support system for smart city management.
+        My work focuses on predictive modeling, machine learning, and explainable AI techniques such as LIME, Partial Dependence (PD), and ICE.
+        I am currently developing an LLM-driven decision support system for smart city management.
     </p>
 </section>
 
 <section>
     <h2>Key Achievements</h2>
     <ul>
-        <li>GPA 9.8 / 10 in Master’s program</li>
-        <li>Developed machine learning models using SAS Model Studio</li>
-        <li>Applied Explainable AI techniques (LIME, PD, ICE)</li>
+        <li>GPA 9.8 / 10 (Master’s)</li>
+        <li>Developed ML models using SAS Model Studio</li>
+        <li>Applied Explainable AI (LIME, PD, ICE)</li>
         <li>2 years experience as Assistant Lecturer</li>
     </ul>
 </section>
@@ -31,19 +126,20 @@
     <div class="card">
         <h3>Customer Churn Prediction (SAS Model Studio)</h3>
         <p>
-        Developed and evaluated predictive models including Logistic Regression, Decision Tree, and Neural Networks.
+            Developed predictive models including Logistic Regression, Decision Tree, and Neural Networks.
         </p>
         <p>
-        Applied Explainable AI techniques (PD, ICE, LIME) to interpret model behavior and identify key churn drivers.
+            Applied Explainable AI techniques (PD, ICE, LIME) to interpret model behavior and identify churn drivers.
         </p>
 
-        <p>
-        <strong>Model Performance:</strong><br>
-        ROC-AUC: 0.84<br>
-        Accuracy: 78%<br>
-        F1 Score: 0.62
-        </p>
+        <div class="metrics">
+            <strong>Model Performance:</strong><br>
+            ROC-AUC: 0.84<br>
+            Accuracy: 78%<br>
+            F1 Score: 0.62
+        </div>
 
+        <br>
         <a href="https://github.com/belbafena/customer-churn-prediction-sas" target="_blank">
             View Project →
         </a>
@@ -52,7 +148,7 @@
     <div class="card">
         <h3>LLM-Driven Decision Support System</h3>
         <p>
-        Designing an AI-powered decision support system using Large Language Models (LLMs) to enhance smart city management.
+            Designing an AI-powered decision support system using Large Language Models (LLMs) for smart city management.
         </p>
         <p><em>Project in progress</em></p>
     </div>
@@ -76,10 +172,18 @@
 
 <section>
     <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>GitHub: <a href="https://github.com/belbafena">github.com/belbafena</a></p>
+    <p>Email: beletebafena30@gmail.com.com</p>
+    <p>
+        GitHub: 
+        <a href="https://github.com/belbafena" target="_blank">
+            github.com/belbafena
+        </a>
+    </p>
 </section>
 
 <footer>
     <p>© 2026 Belbafena</p>
 </footer>
+
+</body>
+</html>
